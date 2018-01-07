@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 extern double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size);
+extern char* longestPalindrome(char* s);
 
 #endif /* leetCodeMain__h */
