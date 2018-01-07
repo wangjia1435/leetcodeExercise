@@ -1,8 +1,8 @@
 //
 //  main.c
-//  leeCodeExercise
+//  leetcode
 //
-//  Created by Jia Wang on 2018/1/1.
+//  Created by Jia Wang on 2018/1/7.
 //  Copyright © 2018年 Jia Wang. All rights reserved.
 //
 
