@@ -6,12 +6,6 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		98070E152001C4030051A8C4 /* MedianOfTwoSortedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 98070E112001C4020051A8C4 /* MedianOfTwoSortedArray.c */; };
-		98070E162001C4030051A8C4 /* leetCodeMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 98070E122001C4020051A8C4 /* leetCodeMain.c */; };
-		98070E1B2001C4D70051A8C4 /* longestPalindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = 98070E1A2001C4D70051A8C4 /* longestPalindrome.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		98070E042001C3730051A8C4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,10 +20,8 @@
 
 /* Begin PBXFileReference section */
 		98070E062001C3730051A8C4 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
-		98070E112001C4020051A8C4 /* MedianOfTwoSortedArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MedianOfTwoSortedArray.c; sourceTree = "<group>"; };
-		98070E122001C4020051A8C4 /* leetCodeMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = leetCodeMain.c; path = leeCodeExercise/leetCodeMain.c; sourceTree = "<group>"; };
-		98070E132001C4020051A8C4 /* leetCodeMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = leetCodeMain.h; path = leeCodeExercise/leetCodeMain.h; sourceTree = "<group>"; };
-		98070E1A2001C4D70051A8C4 /* longestPalindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longestPalindrome.c; sourceTree = "<group>"; };
+		9892BC782006563200FC8847 /* testMain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = testMain; sourceTree = "<group>"; };
+		9892BC792006563200FC8847 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +38,8 @@
 		98070DFD2001C3730051A8C4 = {
 			isa = PBXGroup;
 			children = (
-				98070E192001C4880051A8C4 /* longestPalindrome */,
-				98070E182001C40B0051A8C4 /* MedianOfTwoSortedArray */,
-				98070E122001C4020051A8C4 /* leetCodeMain.c */,
-				98070E132001C4020051A8C4 /* leetCodeMain.h */,
+				9892BC792006563200FC8847 /* src */,
+				9892BC782006563200FC8847 /* testMain */,
 				98070E072001C3730051A8C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,22 +50,6 @@
 				98070E062001C3730051A8C4 /* leetcode */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		98070E182001C40B0051A8C4 /* MedianOfTwoSortedArray */ = {
-			isa = PBXGroup;
-			children = (
-				98070E112001C4020051A8C4 /* MedianOfTwoSortedArray.c */,
-			);
-			path = MedianOfTwoSortedArray;
-			sourceTree = "<group>";
-		};
-		98070E192001C4880051A8C4 /* longestPalindrome */ = {
-			isa = PBXGroup;
-			children = (
-				98070E1A2001C4D70051A8C4 /* longestPalindrome.c */,
-			);
-			path = longestPalindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +109,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98070E1B2001C4D70051A8C4 /* longestPalindrome.c in Sources */,
-				98070E152001C4030051A8C4 /* MedianOfTwoSortedArray.c in Sources */,
-				98070E162001C4030051A8C4 /* leetCodeMain.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
